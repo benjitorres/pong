@@ -1,6 +1,7 @@
 import pygame
 import random
 
+#i wrote down the whole code, didn't work so I just asked again for it to be made lol, at least it works now!
 # Initialize Pygame
 pygame.init()
 
@@ -13,7 +14,7 @@ FPS = 60
 
 # Set up the screen
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption('Pong with AI')
+pygame.display.set_caption('Pong :3')
 
 # Paddle class
 class Paddle:
